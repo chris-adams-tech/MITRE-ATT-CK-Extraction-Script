@@ -1,0 +1,43 @@
+---
+contributors:
+- Praetorian
+id: attack-pattern--1c2fd73a-e634-44ed-b1b5-9e7cf7404e9f
+mitre_attack_url: https://attack.mitre.org/techniques/T1522
+name: Cloud Instance Metadata API
+platforms:
+- IaaS
+tactics:
+- credential-access
+title: credential-access - Cloud Instance Metadata API
+---
+
+## Technical Details
+
+| Attribute | Details |
+|-----------|----------|
+| **Tactics** | credential-access |
+| **Platforms** | IaaS |
+| **Permissions Required** | User |
+| **MITRE ATT&CK URL** | [https://attack.mitre.org/techniques/T1522](https://attack.mitre.org/techniques/T1522) |
+
+# Cloud Instance Metadata API (attack-pattern--1c2fd73a-e634-44ed-b1b5-9e7cf7404e9f)
+
+## Description
+Adversaries may attempt to access the Cloud Instance Metadata API to collect credentials and other sensitive data.
+
+Most cloud service providers support a Cloud Instance Metadata API which is a service provided to running virtual instances that allows applications to access information about the running virtual instance. Available information generally includes name, security group, and additional metadata including sensitive data such as credentials and UserData scripts that may contain additional secrets. The Instance Metadata API is provided as a convenience to assist in managing applications and is accessible by anyone who can access the instance.(Citation: AWS Instance Metadata API)
+
+If adversaries have a presence on the running virtual instance, they may query the Instance Metadata API directly to identify credentials that grant access to additional resources. Additionally, attackers may exploit a Server-Side Request Forgery (SSRF) vulnerability in a public facing web proxy that allows the attacker to gain access to the sensitive information via a request to the Instance Metadata API.(Citation: RedLock Instance Metadata API 2018)
+
+The de facto standard across cloud service providers is to host the Instance Metadata API at <code>http[:]//169.254.169.254</code>.
+
+
+## Detection
+* Monitor access to the Instance Metadata API and look for anomalous queries.
+* It may be possible to detect adversary use of credentials they have obtained. See [Valid Accounts](https://attack.mitre.org/techniques/T1078) for more information.
+
+
+## External References
+- [mitre-attack](https://attack.mitre.org/techniques/T1522)
+- [AWS Instance Metadata API](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
+- [RedLock Instance Metadata API 2018](https://redlock.io/blog/instance-metadata-api-a-modern-day-trojan-horse)

@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "1c29a9c2a97fae55",
+    "type": "split",
+    "children": [
+      {
+        "id": "425b6433520f30d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac3ee98c241b6659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa863260ede62dde",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d7f68f414ee6b6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0fc83eb7acd9243",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aa30bfb21553fd45",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3b7b8c704090eea0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1d678ffe8dbbb47a",
+    "type": "split",
+    "children": [
+      {
+        "id": "461b7003d64ea49a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33fe5f4ddfcd8e91",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile"
+            }
+          },
+          {
+            "id": "9c075e86dae2a2ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile"
+            }
+          },
+          {
+            "id": "382ff540c6b5dd20",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "856051b20a834ca3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3_privilege-escalation_-_PowerShell_Profile"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ac3ee98c241b6659",
+  "lastOpenFiles": [
+    "attack-pattern--0df05477-c572-4ed6-88a9-47c581f548f7_impact_-_OS_Exhaustion_Flood.md",
+    "attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3_reconnaissance_-_IP_Addresses.md",
+    "attack-pattern--0dbf5f1b-a560-4d51-ac1b-d70caab3e1f0_credential-access_-_LLMNR_NBT-NS_Poisoning_and_Relay.md",
+    "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144_defense-evasion_-_Encrypted_Encoded_File.md",
+    "attack-pattern--00d0b012-8a03-410e-95de-5826bf542de6_defense-evasion_-_Indicator_Removal_from_Tools.md",
+    "attack-pattern--0cfe31a7-81fc-472c-bc45-e2808d1066a3_impact_-_External_Defacement.md",
+    "attack-pattern--0cf55441-b176-4332-89e7-2c4c7799d0ff_defense-evasion_-_Email_Hiding_Rules.md",
+    "attack-pattern--0ce73446-8722-4086-9d43-514f1d0f669e_defense-evasion_-_Modify_Cloud_Resource_Hierarchy.md",
+    "attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5_defense-evasion_-_Direct_Volume_Access.md",
+    "attack-pattern--0cc222f5-c3ff-48e6-9f52-3314baf9d37e_resource-development_-_Artificial_Intelligence.md",
+    "attack-pattern--0ca7beef-9bbc-4e35-97cf-437384ddce6a_persistence_-_File_System_Permissions_Weakness.md",
+    "attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a_collection_-_Sharepoint.md",
+    "attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32_persistence_-_Path_Interception_by_PATH_Environment_Variable.md",
+    "attack-pattern--0bf78622-e8d2-41da-a857-731472d61a92_impact_-_Stored_Data_Manipulation.md",
+    "attack-pattern--0bda01d5-4c1d-4062-8ee2-6872334383c3_impact_-_Direct_Network_Flood.md",
+    "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9_impact_-_Disk_Structure_Wipe.md",
+    "attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74_collection_-_Data_from_Configuration_Repository.md",
+    "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65_execution_-_Shared_Modules.md",
+    "attack-pattern--0a241b6c-7bb2-48f9-98f7-128145b4d27f_reconnaissance_-_Purchase_Technical_Data.md",
+    "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22_credential-access_-_OS_Credential_Dumping.md",
+    "attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044_defense-evasion_-_Disabling_Security_Tools.md",
+    "attack-pattern--2e114e45-2c50-404c-804a-3af9564d240e_impact_-_Disk_Structure_Wipe.md",
+    "attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3_persistence_-_Additional_Cloud_Roles.md",
+    "attack-pattern--2cd950a6-16c4-404a-aa01-044322395107_defense-evasion_-_InstallUtil.md",
+    "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230_reconnaissance_-_Spearphishing_Link.md",
+    "attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3_credential-access_-_Keychain.md"
+  ]
+}
